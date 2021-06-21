@@ -1,4 +1,8 @@
 class Node
-  def initialize(head)
+  attr_reader :data,
+              :next_node
+
+  def initialize(data)
+    @data = data
   end
 end
